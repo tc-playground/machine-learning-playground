@@ -1,0 +1,156 @@
+1a. What do you do and what is your technical background?
+I am currently a software developer at Oracle Corporation working on Kubernetes components for the Oracle cloud.
+
+I have about 15 years of software development experience, Originally mainly Java back-end enterprise systems; but, more recently various projects that use a lot of Clojure, JavaScript, Python, Golang, and, shell scripting.
+
+I have a Computer Science degree. I studied some elements of ML back at University. Also, my Masters dissertation was on the use of ML clustering to find outliers in an mircobiology dataset.
+
+I also helped develop a prototype search engine that combined free-text search with aggregate OLAP searches in the travel domain.
+
+I mention the above as they related a bit to the content of the book.
+
+I would say the first 5 chapter of the book were already familiar to me; and the rest was mostly new.
+
+1b. On a scale of 1-10, how would you categorize your expertise in this subject?
+None
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Expert
+1c. Did you read the entire review package? If not, which chapters did you read?
+Yes, I read it all. I read it over various sittings and in various environments (desk, train, bus, bed, etc.). It was hardest to read when aways from my desk as I had no access to the examples. Sometimes it was tricky to read unless I read the whole chapter in one go.
+2. Imagine that you’re writing a review for this book on Amazon…
+2a. How many stars would you give it?
+Bad
+1
+2
+3
+4
+5
+Great
+2b. What would you say?
+This book gives a good overview of modern NLP approaches and their application. It is clear that the authors have a deep knowledge of the subject, and provide both intuitive explanations of how the algorithms work and further references for the reader to get more detailed information.
+
+The book also provides practical support by discussing the most popular Python libraries available for NLP and, ANNs and providing 'walkthroughs' on how to use them to achieve particular goals. 
+
+NB: It is a pity, there was not a 'chatbot' example continuously being iterated upon through out the chapters though.
+
+I would highly recommend trying these examples whilst reading the book. Some of the data structures being used are hard to visualise as they are all vector based and having them running in a Python REPL can often clear up confusion.
+
+Sometimes , the book can be a little bit confusing; a term or algorithm is introduced that has not previously been mentioned, or, it will go off on a small (often interesting) tangent. My advice for these sections is to just move on; often they are explained in later sections, and, when this is not the case they are unimportant to the overall dialogue.
+
+To summarise, this is a good book for someone who has some familiarity with Python and ML and want to get into NLP. It is a practical book full of intuition and how to use the most popular libraries. It is not a theoretical book, but, provides lots of reference for those wishing to gain a deeper understanding of the topic covered.
+2c. What would the authors need to change to get 5 stars?
+I think it just needs a bit of polish and editing! 
+
+I have to say I really respect the authors knowledge of the subject; and effort to share it with others. I find providing criticism hard (I am not that kind of guy normally), but, I hope the following is constructive and can help with the book... 
+ 
+In some cases it would benefit from clearly defining things 'in a grey box' or something like that. Most things get defined, but, are mixed in with all the lovely intuitions. If I am reading a bit on the bus, get home, have my dinner, and then start reading again but have forgotten what the difference between "thought vector" and a "bag of words" is - it would be nice to be able to easily find the definitions instead of trying to scan paragraphs to find them. I do understand the book is not in a 'formal style'; I just think it would be convenient as there are lots of related and similar looking concepts going on.
+
+For me, Chapter 4, was the most muddling. I did some of this stuff (a long time ago) already; so maybe it will be tricky for an unfamiliar reader. There are lots of TLA (three letter acronyms!) describing transforms, classifiers, data structures and the like. These concepts (along with Chapter 5 of ANNs) are core to most other content in the book. Somehow these concepts have to be nailed and driven home.
+
+Sometimes my perception of the required level of skill or the reader is confused. At the end of Ch2 Naive Bayes is used, but, not really explained at all, and, then in Ch3 goes on about 2D vector spaces (a little bit too long). The content is fine and should be there for continuity, but, I expect nearly all readers did graphs and stuff at school. So, I guess I am saying, some bits seemed to skip the details I (personally) wanted, whilst other bits went into too much detail on basic concepts. Also something like the dot-product (non-cosine version) are not present, unless I missed it., but, essential to nearly everything.
+
+I know it has not been edited yet, but, it feels like it has been written by multiple authors. For me I felt there were too many forward and backward references between the chapter. NB: I noted this down before realising there were 3 authors.
+
+I know it has not been edited yet, but, most of the diagrams and graphs were hard to understand. For example, in Chapter 8 there are two diagrams that appear inconsistent, does the output of the intermediate layer at t-1 get fed into the intermediate layer of t1, or is it the output layer of t-1? Also, I could not understand the graph in Chapter 6 "Visualizing Word Relationships".
+
+Finally, 'from the blurb' I sort of expected there to be an example of a chatbot example that would be iterated on chapter by chapter. That would have been a nice addition. 
+3. Please comment on the manuscript.
+3a. Is the writing interesting? Does it hold your attention?
+Yes, it was great. I like the informal style and the authors seem to have lots of experience and intuition, which they convey well.
+3b. Were there passages that required repeated reading to understand? If so, which ones?
+I found Chapter 4 quite hard going. This may be because I was already familiar with some of the concepts?
+
+Also, the first section of Chapter 8. I could not work out wether the intermediate layer of the output layer was being passed into the next time step, of the ouput.
+3c. Are there any figures \ screenshots which don’t make sense to you or could be captioned \ annotated better to clarify what they are showing?
+Chapter 6 "Visualizing Word Relationships". Fig 5. Did not try too hard, but, could not get it straight off... What are the axes?
+
+Chapter 8: Remembering with Recurrent Networks. Figure 5 and 6. Fig 5. what are those red arrows? It is not backprop. Are they the output going into t+1? In that case is not inconsistent with Fig4?
+3d. Are the examples good and applicable in real world? Are there enough of them?
+There are loads of great examples. One of the best things about the book. Some examples are from the real world.
+3e. What do you think of the overall concept of the book and the approach toward the intended audience?
+I think the concept is great - as I understand it a practical book in the "X in Action" vein. It has worked example and intuition, without too much theory and maths; whilst having pointers to more theoretical works.
+
+I did think the book was focused on chatbots though, and, even there is a whole chapter on how to develop a chat bot it would haven been cool to have an example chatbot to iterate on. Iterating on things is good for me personally.
+3f. Do you recommend any improvements to the Table of Contents?
+It is good. I really like the structure of the book and how it progresses and build up concepts. I think it is consistent with other Manning books.
+
+NB: However, for me personally I prefer a TOC that is 'less trendy' and more noun/verb based - or at least a more detailed secondary TOC. I guess this is because I often use a TOC as a summary of the content of a book. I guess I am just old!
+3g. Are any parts of the manuscript too long, too short or missing?
+All chapters are of a good length, maybe the 40 page chapters are a little too long? Logically, it should not really matter, but, as a reader it nice to feel like I am "making progress"! Maybe Chapter 4 could be shortened or split up? It is little heavy work because SVDis sort of heavy. What you guys have got is pretty good (I cant think of a better separation atm), but, it did feel hard work, even though I have some experience of the subject matter.
+
+It is missing a small reference to Chomksy and "The Chomsky Hierachy", in Chapter 1 when describing languages.
+
+It is missing a description or reference to how a Niave Bayes classifier work in Chapter 2.
+
+It is missing and example or reference to Markov Chains, and, examples of their use for generating language in Chapter 9.
+
+I like the 'asides' in the book, but, occasionally less is more. For example, in Chapter 2 there is an aside about 'lambdas' and 'list comprehensions' in python. This is cool and interesting stuff, but, the book is meant to be about NLP not python. I knew what they were, but, a reader with only basic python might find it confusing and off-topic? It might be worth canvassing opinion on which 'asides' in the book are worth it. A novice reader is already taking a lot on board, and, an advanced reader probably already knows it. Thats said, I really appreciated some of the,...
+3h. Does the book make learning the subject easy?
+It provides a good place to start, and, help with the available Python libraries.
+
+It does provide some great intuition. I loved that horse example for PCA dimensionality reduction. Never actually come across that before - genius. If only my maths lecturer explained it that way!
+3i. Did you actually learn to do anything after reading these chapters? What?
+I ran some of the simpler examples (I only have a laptop) so was able to learn how to use some of the common tools and libraries available. I was also able to learn some good sources of NLP data and pre-trained models. This is very valuable.
+3j. Did you gain any new techniques, insights or perspectives?
+Yes. I was not very familiar with how NLP related to CNNs and RNNS. I was previously unaware of LSTM's (very cool), but, will need another text to understand them properly. I had heard of word2vec, but, knew nothing about it. Cool stuff.
+3k. How much value is there in this book compared to free online resources?
+Lots of value. This is a very clear narrative the builds up techniques in order in a logical way. It describes what tools are available and how to start using them. It describes available datasets and models. It has lots of 'asides' to more advanced stuff.
+
+Like I mentioned previously, I think this book is "a great place to start for a new NLP practitioner". It is such a broad topic, and there lots of links off to the free resources. Basically, I like the narrative and focus on available tools. Of course, it would be handy to have a more theoretical book and online reference to the library APIs to support the book, but, it is good
+3l. Did you have any “aha!” moments while reading this manuscript?
+The word2vec vector reasoning of course! 
+
+Also, the horse PCA dimensionality reduction intuition was cool, the LSTM memory units, and, the sequence-to-sequence generative models.
+
+Also, the use of dropout for generalisation. I sort of knew this, but, was well explained.
+3m. For the beginner readers (close to MQR) we'd love to know what concepts were most confusing. For the advanced readers we'd like to know any suggestions for alternative diagrams or explanations that you think would make things more clear, and whether you see any gaps in the subject matter that we should address (perhaps with an appendix).
+I mentioned in other sections: Chapter 4 was the most difficult. Working out when a tool was being used for dimensionality reduction vs classification. Also, because maybe this chapter goes more into the theory of how it works underneath.
+4. We often provide examples for two reasons – to help learn the topic and as illustrations of real-world code. Please consider thoroughly running the code. This is a vital part of the manuscript review - we need your opinion on both text and code.
+4a. How many of the source code examples did you run? If none, why?
+I ran most of the simpler counting ones from the first few chapters. I only had access to a laptop. Sometimes I had no access to a laptop, this, can make understanding some of the material hard (it is easy to mis-visualise the input/ouput vectors sometimes), access to a machine can make it explicit.
+4b. Did the code examples help you learn the material?
+Yes. It is essential. Reading it repeatedly is helpful. Especially useful in understanding the ANNs.
+4c. Are the examples nicely explained?
+Yes.
+4d. Were there any examples that were helpful in real-world situations?
+N/A.
+4e. Do the examples use the current and most common version of the technologies covered in the book?
+Yes. Although, I did not use the 'conda package management' system suggested on the github page. I have to do standard python development on my laptop sometimes, so I prefer to used the standard python management tools and virtual environments. It might be nice to have alternative instructions on the github page.
+4f. Are there new versions of the software announced or coming soon that will affect the examples in the book?
+N/A
+5. Wrap up.
+5a. How much interest is there in this topic?
+None
+1
+2
+3
+4
+5
+Burning Hot
+5b. What other topics would you like to see books published on?
+I always want more Kubernetes books! Would love a decent book on modern cloud networking... how software overlays and stuff like that work... how networking works in docker via linux... I am biased though.
+5c. Can you name some technology experts (perhaps lesser known) who you think would make good authors?
+1. Joe Beda from Heptio - Does TGIK. Love that dude, pretty entertaining.
+2. Siraj Raval - Does great intuitve youtube snippets - https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A
+5d. To help get the word out about our books, we often convert sections of books into articles published on the Web. Which sections in this manuscript would make interesting or useful articles?
+1. The section on 'word2vec', and, vector reasoning.
+2. Chapter 5 on ANNs is quite succinct.
+3. Chapter 9 on LSTMs as a series would be awesome.
+4. Chapter 12 has some core 'fun' stuff. AIML and Will.
+5e. Occasionally we use quotes in promotional material. May we use a quote from your review with or without your name for these promotions?
+I don't mind, but, my company probably would and require permission. I doubt I said anything quote worthy, feel free to contact me if I have and I will ask.
+Additional Comments
+Pass my thanks on to the authors. Really appreciate their efforts.
+
+Also, I only had two weeks to do this. Turned out to be pretty hard with a taxing full time job. I have done my best, but, really would have like to have more time to do the review. 
+
+Anyway, this was the first time I have done anything like this, and I really enjoyed doing it. I had a totally different experience when reviewing a book rather than reading it straight out. It makes you think differently about it. So, thanks for the experience!
